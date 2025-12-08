@@ -2,5 +2,6 @@ apis:
   main:
     root: ./openapi.json
     decorators:
-      info-description-override:
-        filePath: override.md
+      operation-description-override:
+        operationIds:
+          get_new-endpoint: ./override.md
