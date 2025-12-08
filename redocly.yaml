@@ -1,0 +1,6 @@
+apis:
+  main:
+    root: ./openapi.json
+    decorators:
+      info-description-override:
+        filePath: override.md
